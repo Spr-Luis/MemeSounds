@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A07C7B1D210E8E2E0050D864 /* sad_violin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A07C7B1C210E8E2E0050D864 /* sad_violin.mp3 */; };
+		A07C7B21210E920C0050D864 /* blonde_redhead.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A07C7B1E210E920C0050D864 /* blonde_redhead.mp3 */; };
+		A07C7B22210E920C0050D864 /* HELLO_DARKNESS_MY_OLD_FRIEND.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A07C7B1F210E920C0050D864 /* HELLO_DARKNESS_MY_OLD_FRIEND.mp3 */; };
+		A07C7B23210E920C0050D864 /* turn_down_for_what.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A07C7B20210E920C0050D864 /* turn_down_for_what.mp3 */; };
 		A0C080CC210E7D6A00860554 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C080CB210E7D6A00860554 /* AppDelegate.swift */; };
 		A0C080CE210E7D6A00860554 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0C080CD210E7D6A00860554 /* ViewController.swift */; };
 		A0C080D0210E7D6B00860554 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0C080CF210E7D6B00860554 /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A07C7B1C210E8E2E0050D864 /* sad_violin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sad_violin.mp3; sourceTree = "<group>"; };
+		A07C7B1E210E920C0050D864 /* blonde_redhead.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = blonde_redhead.mp3; sourceTree = "<group>"; };
+		A07C7B1F210E920C0050D864 /* HELLO_DARKNESS_MY_OLD_FRIEND.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = HELLO_DARKNESS_MY_OLD_FRIEND.mp3; sourceTree = "<group>"; };
+		A07C7B20210E920C0050D864 /* turn_down_for_what.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = turn_down_for_what.mp3; sourceTree = "<group>"; };
 		A0C080C8210E7D6A00860554 /* MemeSounds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeSounds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0C080CB210E7D6A00860554 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0C080CD210E7D6A00860554 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -34,6 +42,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A07C7B19210E8C120050D864 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				A07C7B1C210E8E2E0050D864 /* sad_violin.mp3 */,
+				A07C7B1E210E920C0050D864 /* blonde_redhead.mp3 */,
+				A07C7B1F210E920C0050D864 /* HELLO_DARKNESS_MY_OLD_FRIEND.mp3 */,
+				A07C7B20210E920C0050D864 /* turn_down_for_what.mp3 */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
 		A0C080BF210E7D6A00860554 = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +72,7 @@
 		A0C080CA210E7D6A00860554 /* MemeSounds */ = {
 			isa = PBXGroup;
 			children = (
+				A07C7B19210E8C120050D864 /* Files */,
 				A0C080CB210E7D6A00860554 /* AppDelegate.swift */,
 				A0C080CD210E7D6A00860554 /* ViewController.swift */,
 				A0C080CF210E7D6B00860554 /* Assets.xcassets */,
@@ -121,8 +141,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A07C7B21210E920C0050D864 /* blonde_redhead.mp3 in Resources */,
 				A0C080D0210E7D6B00860554 /* Assets.xcassets in Resources */,
+				A07C7B22210E920C0050D864 /* HELLO_DARKNESS_MY_OLD_FRIEND.mp3 in Resources */,
+				A07C7B1D210E8E2E0050D864 /* sad_violin.mp3 in Resources */,
 				A0C080D3210E7D6B00860554 /* Main.storyboard in Resources */,
+				A07C7B23210E920C0050D864 /* turn_down_for_what.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
